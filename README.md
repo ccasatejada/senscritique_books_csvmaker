@@ -1,14 +1,14 @@
 # senscritique_books_csvmaker
-Designed to extract books (and comics) from senscritique as csv-compatible-with-goodreads (or storygraph)
+Designed to extract books (and comics) from senscritique collections as csv-compatible-with-goodreads (or storygraph).  
 It works (september 2025)
 
 # target
-Extract comics and books collections to a csv that can be imported in goodreads or storygraph 's apps.
+Extract comics and books collections to a csv that can be imported in goodreads or storygraph 's apps.  
 It gathers only books with ratings
 
 # installation
-install requirements
-$ pip install -r requirements.txt
+install requirements  
+`$ pip install -r requirements.txt`
 
 # setup
 edit the only main script to:
@@ -17,13 +17,15 @@ edit the only main script to:
 - change the csv output path
 
 # execution
-execute the script with:
-$ python scrap_senscritique.py
+execute the script with:  
+`$ python scrap_senscritique.py`  
 and wait...
 
 # what to do next
-go to your storygraph's account, click on the top right of your very own avatar
-Manage Account, then "Goodreads import" > Imports Goodreads Library, drop the csv on step 2 and click on the big green button
+go to your storygraph's account, click on the top right of your very own avatar  
+then Manage Account,  
+then "Goodreads import" > Imports Goodreads Library,  
+finally, drop the csv on step 2 and click on the big green button
 
 # epilogue
-you shall continue to use your senscritique account as well as your storygraph's, that's two beautiful tool to discover beautiful new things
+you shall continue to use your senscritique account as well as your storygraph's, that's two beautiful tools to discover beautiful new things
